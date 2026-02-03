@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickKing — Simple, Private Click Tracking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --bs-primary: #0070f3; }
+        .bg-dark { background-color: #111 !important; }
+        .accordion-button:not(.collapsed) { background-color: #f8f9fa; color: #000; }
+    </style>
+</head>
+<body>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold">ClickKing — Simple, private click tracking for every website</h1>
+        <p class="lead text-muted">
+          One lightweight snippet. Instant click analytics. No cookies, no complex setup — built for developers,
+          teams and agencies who want clean, honest click counts.
+        </p>
+        <div class="d-flex gap-2 mb-3">
+          <a href="#" class="btn btn-primary btn-lg px-4">Get Started Free</a>
+          <a href="#" class="btn btn-outline-secondary btn-lg px-4">Documentation</a>
+        </div>
+        <ul class="list-unstyled text-sm text-muted">
+          <li class="mb-1">✅ Free tier — 1 embed link + 5 short links</li>
+          <li class="mb-1">✅ Privacy-first: no user profiling, no cookies</li>
+          <li class="mb-1">✅ Dashboard, CSV export & upgrade path</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <div class="card shadow-sm border-0">
+          <div class="card-body p-0">
+            <pre class="p-3 mb-0 bg-dark text-white small rounded-top"><code>&lt;!-- 1. Add the class to any element --&gt;
+&lt;a href="https://example.com"
+   class="ck-track"
+   data-track="cta-hero"&gt;
+  Get Started
+&lt;/a&gt;</code></pre>
+            <pre class="p-3 mb-0 bg-dark text-white small rounded-bottom border-top border-secondary"><code>&lt;!-- 2. Include the snippet before &lt;/body&gt; --&gt;
+&lt;script src="https://clickking.io/static/js/track.js"
+  data-key="YOUR_API_KEY"&gt;&lt;/script&gt;</code></pre>
+          </div>
+        </div>
+        <div class="mt-3 text-muted small text-center">Two steps. No build tools. Works on any site.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="h3 mb-5 text-center fw-bold">Simple, transparent pricing</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-3">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <h5 class="fw-bold">Free</h5>
+            <h2 class="display-6 fw-bold">£0</h2>
+            <ul class="list-unstyled my-4 text-muted">
+              <li>1 embed link</li>
+              <li>5 short links</li>
+              <li>500 tracked clicks</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary w-100">Start Free</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <h5 class="fw-bold">Starter</h5>
+            <h2 class="display-6 fw-bold">£5<small class="fs-6 text-muted">/mo</small></h2>
+            <ul class="list-unstyled my-4 text-muted">
+              <li>10 embed links</li>
+              <li>15 short links</li>
+              <li>10,000 tracked clicks</li>
+            </ul>
+            <button class="btn btn-primary w-100">Choose Starter</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <h5 class="fw-bold text-primary">Growth</h5>
+            <h2 class="display-6 fw-bold">£15<small class="fs-6 text-muted">/mo</small></h2>
+            <ul class="list-unstyled my-4 text-muted">
+              <li>30 embed links</li>
+              <li>50 short links</li>
+              <li>50,000 tracked clicks</li>
+            </ul>
+            <button class="btn btn-primary w-100">Choose Growth</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <h5 class="fw-bold">Pro</h5>
+            <h2 class="display-6 fw-bold">£30<small class="fs-6 text-muted">/mo</small></h2>
+            <ul class="list-unstyled my-4 text-muted">
+              <li>100 embed links</li>
+              <li>200 short links</li>
+              <li>250,000 tracked clicks</li>
+            </ul>
+            <button class="btn btn-primary w-100">Choose Pro</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-5 bg-white border-top">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span class="fw-bold fs-4 text-primary">ClickKing</span>
+        <p class="text-muted small">© 2026 ClickKing · A product of <strong>Metallicode LTD</strong></p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="#" class="text-muted text-decoration-none me-3">Privacy Policy</a>
+        <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
